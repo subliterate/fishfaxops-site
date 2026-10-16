@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Fishfax Ops logo mark">
+  <defs>
+    <linearGradient id="panel" x1="10%" y1="8%" x2="88%" y2="92%">
+      <stop offset="0%" stop-color="#102733"/>
+      <stop offset="52%" stop-color="#08141c"/>
+      <stop offset="100%" stop-color="#030b10"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow" cx="48%" cy="44%" r="44%">
+      <stop offset="0%" stop-color="#69f3db" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#69f3db" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pentagonFill" x1="20%" y1="10%" x2="82%" y2="90%">
+      <stop offset="0%" stop-color="#7ef1d7"/>
+      <stop offset="55%" stop-color="#44c0b0"/>
+      <stop offset="100%" stop-color="#1f8d93"/>
+    </linearGradient>
+    <linearGradient id="silverEdge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3fbff" stop-opacity="0.98"/>
+      <stop offset="45%" stop-color="#bfd3dc" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#7e98a6" stop-opacity="0.18"/>
+    </linearGradient>
+    <radialGradient id="amberPulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe5aa"/>
+      <stop offset="55%" stop-color="#f6c07c"/>
+      <stop offset="100%" stop-color="#cb8246" stop-opacity="0.8"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="26" stdDeviation="40" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect x="72" y="72" width="880" height="880" rx="224" fill="url(#panel)"/>
+  <rect x="92" y="92" width="840" height="840" rx="204" fill="none" stroke="rgba(191,211,220,0.14)" stroke-width="4"/>
+
+  <g opacity="0.22">
+    <path d="M160 856L270 214" stroke="rgba(191,211,220,0.22)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M160 856L404 182" stroke="rgba(191,211,220,0.18)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M160 856L552 166" stroke="rgba(191,211,220,0.16)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M160 856L706 180" stroke="rgba(191,211,220,0.14)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M160 856L842 248" stroke="rgba(191,211,220,0.12)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <circle cx="504" cy="470" r="284" fill="url(#cyanGlow)"/>
+
+  <g filter="url(#shadow)">
+    <path
+      d="M418 234L722 346L648 704L364 788L236 500Z"
+      fill="url(#pentagonFill)"
+      stroke="rgba(199,255,241,0.18)"
+      stroke-width="10"
+      stroke-linejoin="round"/>
+
+    <path d="M366 348L444 348L430 688L350 688Z" fill="#07131a"/>
+    <path d="M366 348L612 348L590 424L366 424Z" fill="#07131a"/>
+    <path d="M366 500L520 500L502 570L366 570Z" fill="#07131a"/>
+
+    <path d="M444 348L430 688" fill="none" stroke="url(#silverEdge)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M612 348L590 424" fill="none" stroke="url(#silverEdge)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M520 500L502 570" fill="none" stroke="url(#silverEdge)" stroke-width="7" stroke-linecap="round"/>
+
+    <path d="M418 234L722 346" fill="none" stroke="rgba(243,251,255,0.18)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M722 346L648 704" fill="none" stroke="rgba(243,251,255,0.12)" stroke-width="6" stroke-linecap="round"/>
+
+    <circle cx="722" cy="346" r="22" fill="url(#amberPulse)"/>
+    <circle cx="722" cy="346" r="50" fill="none" stroke="rgba(246,192,124,0.22)" stroke-width="10"/>
+  </g>
+</svg>

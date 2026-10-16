@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fishfaxops.com/sitemap.xml
